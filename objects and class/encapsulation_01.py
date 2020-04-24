@@ -15,6 +15,8 @@ comp.sell()
 
 print(" ")
 #change the price
+#__maxprice as private attributes of computer class
+#hence its not possible to change unless using setter function
 comp.__maxprice = 1000
 print("new price")
 comp.sell()
